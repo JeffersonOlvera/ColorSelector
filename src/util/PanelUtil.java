@@ -1,10 +1,9 @@
-package service;
+package util;
 
 import javax.swing.*;
 
 public class PanelUtil {
     /**
-     *
      * @param panel JFrame
      * @param title Windows title
      */
@@ -15,7 +14,7 @@ public class PanelUtil {
         panel.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         panel.setVisible(true);
         panel.setResizable(false);
-        panel.setSize(450,250);
+        panel.setSize(450, 250);
 
     }
 

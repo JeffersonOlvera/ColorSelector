@@ -8,6 +8,7 @@ public class ColorPicker extends JFrame {
         setContentPane(ColorPickerPanel);
 
     }
+
     private JPanel Botonera;
     public JPanel ColorPanel;
     public JButton rosadoButton;
