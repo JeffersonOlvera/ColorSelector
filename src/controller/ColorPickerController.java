@@ -40,16 +40,26 @@ public class ColorPickerController implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if (e.getSource() == colorPicker.amarilloButton) colorPicker.ColorPanel.setBackground(Color.YELLOW);
-        if (e.getSource() == (colorPicker.rojoButton)) colorPicker.ColorPanel.setBackground(Color.RED);
-        if (e.getSource() == (colorPicker.blancoButton)) colorPicker.ColorPanel.setBackground(Color.WHITE);
-        if (e.getSource() == (colorPicker.rosadoButton)) colorPicker.ColorPanel.setBackground(PINK);
-        if (e.getSource() == (colorPicker.celesteButton)) colorPicker.ColorPanel.setBackground(SKY_BLUE);
-        if (e.getSource() == (colorPicker.azulButton)) colorPicker.ColorPanel.setBackground(Color.BLUE);
-        if (e.getSource() == (colorPicker.verdeButton)) colorPicker.ColorPanel.setBackground(Color.GREEN);
-        if (e.getSource() == (colorPicker.negroButton)) colorPicker.ColorPanel.setBackground(Color.BLACK);
-        if (e.getSource() == (colorPicker.naranjaButton)) colorPicker.ColorPanel.setBackground(ORANGE);
-        if (e.getSource() == (colorPicker.cafeButton)) colorPicker.ColorPanel.setBackground(BROWN);
+        if (e.getSource() == colorPicker.amarilloButton)
+            colorPicker.ColorPanel.setBackground(Color.YELLOW);
+        if (e.getSource() == (colorPicker.rojoButton))
+            colorPicker.ColorPanel.setBackground(Color.RED);
+        if (e.getSource() == (colorPicker.blancoButton))
+            colorPicker.ColorPanel.setBackground(Color.WHITE);
+        if (e.getSource() == (colorPicker.rosadoButton))
+            colorPicker.ColorPanel.setBackground(PINK);
+        if (e.getSource() == (colorPicker.celesteButton))
+            colorPicker.ColorPanel.setBackground(SKY_BLUE);
+        if (e.getSource() == (colorPicker.azulButton))
+            colorPicker.ColorPanel.setBackground(Color.BLUE);
+        if (e.getSource() == (colorPicker.verdeButton))
+            colorPicker.ColorPanel.setBackground(Color.GREEN);
+        if (e.getSource() == (colorPicker.negroButton))
+            colorPicker.ColorPanel.setBackground(Color.BLACK);
+        if (e.getSource() == (colorPicker.naranjaButton))
+            colorPicker.ColorPanel.setBackground(ORANGE);
+        if (e.getSource() == (colorPicker.cafeButton))
+            colorPicker.ColorPanel.setBackground(BROWN);
 
     }
 }

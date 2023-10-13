@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class ColorPicker extends JFrame {
 
-    public ColorPicker(){
+    public ColorPicker() {
         setContentPane(ColorPickerPanel);
 
     }
