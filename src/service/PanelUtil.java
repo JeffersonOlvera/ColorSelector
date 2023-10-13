@@ -14,6 +14,7 @@ public class PanelUtil {
         panel.setLocationRelativeTo(null);
         panel.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         panel.setVisible(true);
+        panel.setResizable(false);
         panel.setSize(450,250);
 
     }

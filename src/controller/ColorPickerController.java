@@ -9,13 +9,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ColorPickerController implements ActionListener {
-    private final PanelUtil panelUtil = new PanelUtil();
-    private ColorPicker colorPicker = new ColorPicker();
 
+    private ColorPicker colorPicker;
     private final Color BROWN = new Color(150, 75, 0);
     private final Color ORANGE = new Color(255, 95, 31);
     private final Color PINK = new Color(255, 105, 180);
-
     private final Color SKY_BLUE = new Color(0, 191, 255);
 
     public ColorPickerController(ColorPicker colorPicker) {
