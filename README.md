@@ -9,4 +9,4 @@ This is a small project for the Event-Driven Programming class.
 
 ![App Screenshot 2](https://github.com/JeffersonOlvera/ColorSelector/assets/78062935/554af9bb-8f24-4fdf-a6e5-b824b4d28054)
 
-Created by ![Profile Link](https://github.com/JeffersonOlvera)
+Created by JeffersonOlvera
